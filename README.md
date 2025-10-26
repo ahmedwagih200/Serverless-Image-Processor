@@ -1,5 +1,6 @@
 🏗️ Serverless Image Processor – Architecture Documentation
 📘 Overview
+<img width="1042" height="561" alt="Diagram" src="https://github.com/user-attachments/assets/085ebe47-2999-44ff-b5df-4b160c91276c" />
 
 The Serverless Image Processor is a lightweight, scalable solution that allows users to upload images via a web interface or API endpoint.
 Once an image is uploaded, a Lambda function automatically resizes it and stores the processed image in another S3 bucket.
