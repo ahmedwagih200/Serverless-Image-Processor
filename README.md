@@ -133,16 +133,3 @@ def lambda_handler(event, context):
     }
 
 
-🧭 Deployment Steps
-
-Create Source and Destination S3 buckets.
-
-Create and deploy Lambda function (with Pillow layer).
-
-Configure S3 trigger for ObjectCreated → Lambda.
-
-Create API Gateway endpoints (/upload, /image/{filename}).
-
-Deploy a static web app (HTML + JS) for user uploads.
-
-Test end-to-end flow.
